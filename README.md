@@ -74,4 +74,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This plugin is licensed under the GPL v2 or later.
 
 ---
-Made with ❤️ by Rise
+Made with ❤️ by [Rise](https://riseseo.com.au)
