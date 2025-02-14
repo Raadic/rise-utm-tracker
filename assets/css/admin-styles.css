@@ -1,0 +1,138 @@
+/**
+ * Rise UTM Tracker Admin Styles
+ * Version: 1.0.0
+ */
+
+:root {
+    --rise-primary: #c0ff2d;
+    --rise-primary-dark: #a8e628;
+    --rise-primary-light: #d1ff5c;
+    --rise-text: #1a1a1a;
+    --rise-text-light: #666666;
+    --rise-border: #e5e7eb;
+    --rise-background: #f9fafb;
+    --rise-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Main Container */
+.rise-utm-wrapper {
+    max-width: 1200px;
+    margin: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Header */
+.rise-utm-header {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: var(--rise-shadow);
+    position: relative;
+    border: 1px solid var(--rise-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rise-utm-header h1 {
+    color: var(--rise-text);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.rise-utm-logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Cards */
+.rise-utm-card {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: var(--rise-shadow);
+    border: 1px solid var(--rise-border);
+}
+
+/* Form Elements */
+.rise-utm-card .form-table th {
+    font-weight: 600;
+    color: var(--rise-text);
+    padding: 20px 10px 20px 0;
+    width: 200px;
+}
+
+.rise-utm-card .form-table td {
+    padding: 20px 10px;
+}
+
+.rise-utm-card .description {
+    color: var(--rise-text-light);
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* Custom Checkbox */
+.rise-utm-card input[type="checkbox"] {
+    border-color: var(--rise-border);
+}
+
+.rise-utm-card input[type="checkbox"]:checked {
+    background-color: var(--rise-primary);
+    border-color: var(--rise-primary-dark);
+}
+
+/* Submit Button */
+.rise-utm-card .button-primary {
+    background: var(--rise-primary);
+    border-color: var(--rise-primary-dark);
+    color: var(--rise-text);
+    font-weight: 600;
+    padding: 5px 20px;
+    height: auto;
+    font-family: 'Manrope', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.rise-utm-card .button-primary:hover {
+    background: var(--rise-primary-dark);
+    border-color: var(--rise-primary-dark);
+}
+
+/* Footer */
+.rise-utm-footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    color: var(--rise-text-light);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rise-utm-footer a {
+    color: var(--rise-text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.rise-utm-footer a:hover {
+    color: var(--rise-primary-dark);
+}
+
+.rise-support-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.rise-support-link svg {
+    width: 16px;
+    height: 16px;
+}
