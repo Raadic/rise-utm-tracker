@@ -4,6 +4,13 @@ A WordPress plugin that seamlessly tracks UTM parameters and traffic sources for
 
 ## Features
 
+- Automatically identifies and tracks traffic sources including:
+  - Google (Organic & Paid Search)
+  - Facebook (Organic & Paid Social)
+  - Other Social Media Platforms
+  - Direct Traffic
+  - Referral Traffic
+  - Email Campaigns
 - Tracks UTM parameters (utm_source, utm_medium, utm_campaign, utm_term, utm_content)
 - Captures referrer and landing page information
 - Integrates directly with Gravity Forms
